@@ -4,7 +4,7 @@ namespace LogicalProgram;
 
 public static class FabonacciSeries
 {
-    public static void Solve()
+    public static void SolveFabonacciSeries()
     {
         Console.WriteLine("Enter the number of terms for Fibonacci series:");
         int numTerms = int.Parse(Console.ReadLine());
