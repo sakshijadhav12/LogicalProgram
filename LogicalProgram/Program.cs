@@ -7,7 +7,7 @@ internal class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Logical Programs");
-        Console.WriteLine("select Option \n1.FibonacciSeries \n2.Perfect Number \n3.Prime Number \n4.Reverse Number");
+        Console.WriteLine("select Option \n1.FibonacciSeries \n2.Perfect Number \n3.Prime Number \n4.Reverse Number \n5.Stopwatch");
        int options=Convert.ToInt32(Console.ReadLine());
         switch (options)
         {
@@ -25,6 +25,10 @@ internal class Program
             case 4:
                 ReverseNumberProgram reverseNumberProgram = new ReverseNumberProgram();
                 reverseNumberProgram.ReverseNumber();
+                break;
+            case 5:
+                StopWatchptrogram watch = new StopWatchptrogram();
+                watch.StopWatch();
                 break;
 
 
